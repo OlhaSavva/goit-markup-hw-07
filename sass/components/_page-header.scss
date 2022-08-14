@@ -25,7 +25,7 @@
     fill: currentColor;
   }
 }
-.site-nav {
+.menu {
   display: flex;
   align-items: center;
 
@@ -39,7 +39,7 @@
     transition: color var(--transition-effrcts);
   }
 }
-.site-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
@@ -85,9 +85,9 @@
 .link {
   text-decoration: none;
 
-  .site-nav &:hover,
-  .site-nav &:focus,
-  .site-nav &.current {
+  .menu &:hover,
+  .menu &:focus,
+  .menu &.current {
     color: var(--accent-text-color);
   }
   .auth-nav & {
