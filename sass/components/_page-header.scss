@@ -78,7 +78,7 @@
 .menu__item--hover:focus::before {
   opacity: 1;
 }
-.heder-site-link {
+.contacts__link {
   display: flex;
   align-items: center;
 }
@@ -107,6 +107,6 @@
   display: flex;
   margin-left: auto;
 }
-.site-link:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }

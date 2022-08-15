@@ -175,7 +175,7 @@ body {
   opacity: 1;
 }
 
-.heder-site-link {
+.contacts__link {
   display: flex;
   align-items: center;
 }
@@ -202,7 +202,7 @@ body {
   margin-left: auto;
 }
 
-.site-link:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 
