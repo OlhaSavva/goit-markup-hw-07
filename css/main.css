@@ -139,8 +139,8 @@ body {
   margin-right: 50px;
 }
 
-.current::after,
-.link-hover::before {
+.menu__item--сurrent::after,
+.menu__item--hover::before {
   content: "";
   position: absolute;
   z-index: 2;
@@ -154,7 +154,7 @@ body {
   display: block;
 }
 
-.link-hover::before {
+.menu__item--hover::before {
   content: "";
   position: absolute;
   z-index: 5;
@@ -170,8 +170,8 @@ body {
   opacity: 0;
 }
 
-.link-hover:hover::before,
-.link-hover:focus::before {
+.menu__item--hover:hover::before,
+.menu__item--hover:focus::before {
   opacity: 1;
 }
 
@@ -183,7 +183,7 @@ body {
 .link {
   text-decoration: none;
 }
-.menu .link:hover, .menu .link:focus, .menu .link.current {
+.menu .link:hover, .menu .link:focus, .menu .link.menu__item--сurrent {
   color: var(--accent-text-color);
 }
 .auth-nav .link {
