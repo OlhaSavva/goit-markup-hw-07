@@ -4,10 +4,10 @@
   justify-content: center;
   margin-bottom: 50px;
 }
-.filter__item:not(:last-child) {
+.filter-items:not(:last-child) {
   margin-right: 8px;
 }
-.filter__button {
+.filter-button {
   padding: 6px 22px;
 
   color: var(--title-text-color);

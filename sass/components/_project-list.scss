@@ -1,9 +1,9 @@
-.project {
+.project-list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.project__link {
+.project-elements {
   display: block;
 
   transition: box-shadow var(--transition-effrcts);
@@ -36,11 +36,11 @@
 
   @include font(16px, 400, 0.03em, 1.88);
 }
-.description-pprojects {
+.project__product {
   position: relative;
   overflow: hidden;
 }
-.description {
+.project__description {
   position: absolute;
   top: 0;
   left: 0;
@@ -58,8 +58,8 @@
   color: var(--primary-color);
   background-color: var(--description-color);
 
-  .project__link:hover &,
-  .project__link:focus & {
+  .project-elements:hover &,
+  .project-elements:focus & {
     transform: translate(0, 0);
   }
 }
