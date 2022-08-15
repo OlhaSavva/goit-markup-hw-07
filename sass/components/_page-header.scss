@@ -14,7 +14,7 @@
   padding-left: 0;
   margin: 0;
 }
-.heder-icons {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
 
@@ -78,7 +78,7 @@
 .menu__link--hover:focus::before {
   opacity: 1;
 }
-.heder-site-link {
+.contacts__link {
   display: flex;
   align-items: center;
 }
@@ -90,7 +90,7 @@
   .menu &.menu__link--current {
     color: var(--accent-text-color);
   }
-  .auth-nav & {
+  .contacts & {
     color: var(--gray-color);
     font-weight: 500;
     line-height: 1.14;
@@ -98,15 +98,15 @@
 
     transition: color var(--transition-effrcts);
   }
-  .auth-nav &:hover,
-  .auth-nav &:focus {
+  .contacts &:hover,
+  .contacts &:focus {
     color: var(--accent-text-color);
   }
 }
-.auth-nav {
+.contacts {
   display: flex;
   margin-left: auto;
 }
-.site-link:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }

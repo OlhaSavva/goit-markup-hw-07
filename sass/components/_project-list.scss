@@ -1,9 +1,9 @@
-.project-list {
+.project {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
-.project-elements {
+.project__link {
   display: block;
 
   transition: box-shadow var(--transition-effrcts);
@@ -14,19 +14,19 @@
   }
 }
 
-.projects-info {
+.project__info {
   padding: 20px 24px;
 
   border: 1px solid #eeeeee;
 }
-.projects-title {
+.project__title {
   color: var(--title-text-color);
 
   @include font(18px, 700, 0.06em, 2);
 
   margin-bottom: 4px;
 }
-.projects-text {
+.project__text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -58,8 +58,8 @@
   color: var(--primary-color);
   background-color: var(--description-color);
 
-  .project-elements:hover &,
-  .project-elements:focus & {
+  .project__link:hover &,
+  .project__link:focus & {
     transform: translate(0, 0);
   }
 }

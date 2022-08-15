@@ -58,7 +58,7 @@
 
   transition: fill var(--transition-effrcts);
 }
-.social-list-link-footer {
+.footer_links {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,11 +74,11 @@
     background-color: var(--accent-text-color);
   }
 }
-.social-list-icon-footer {
+.footer_smIcon {
   fill: var(--primary-color);
 
-  .social-list-link-footer:hover &,
-  .social-list-link-footer:focus & {
+  .footer_links:hover &,
+  .footer_links:focus & {
     fill: var(--primary-color);
   }
 }

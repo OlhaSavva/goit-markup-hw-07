@@ -1,4 +1,4 @@
-.footer-form-title {
+.footer__modalTitle {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -27,7 +27,7 @@
   }
 }
 
-.footer-form-button {
+.footer__formButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,9 +44,9 @@
   }
 }
 
-.footer-form-item {
+.footer__formItem {
   display: flex;
 }
-.footer-icon-form {
+.footer__formIcon {
   margin-left: 10px;
 }
