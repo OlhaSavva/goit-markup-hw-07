@@ -113,12 +113,12 @@ body {
   margin: 0;
 }
 
-.heder-icons {
+.contacts__icon {
   fill: currentColor;
   margin-right: 10px;
   transition: fill var(--transition-effrcts);
 }
-.heder-icons:hover, .heder-icons:focus {
+.contacts__icon:hover, .contacts__icon:focus {
   fill: currentColor;
 }
 
