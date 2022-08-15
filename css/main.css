@@ -139,7 +139,7 @@ body {
   margin-right: 50px;
 }
 
-.current::after,
+.menu__link--current::after,
 .menu__link--hover::before {
   content: "";
   position: absolute;
@@ -183,7 +183,7 @@ body {
 .link {
   text-decoration: none;
 }
-.menu .link:hover, .menu .link:focus, .menu .link.current {
+.menu .link:hover, .menu .link:focus, .menu .link.menu__link--current {
   color: var(--accent-text-color);
 }
 .auth-nav .link {

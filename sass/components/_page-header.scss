@@ -43,7 +43,7 @@
   margin-right: 50px;
 }
 
-.current::after,
+.menu__link--current::after,
 .menu__link--hover::before {
   content: '';
   position: absolute;
@@ -87,7 +87,7 @@
 
   .menu &:hover,
   .menu &:focus,
-  .menu &.current {
+  .menu &.menu__link--current {
     color: var(--accent-text-color);
   }
   .auth-nav & {
